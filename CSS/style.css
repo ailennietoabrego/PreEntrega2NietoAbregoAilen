@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface &familia = Raleway: peso @ 100; 400; 600; 700 & display=swap');
+
+
+/* Comparten*/
+
+
+body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #edecfd 100%);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: block;
+    }
+
+.header {
+    background-color: #eeedfa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5% 10px;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+}
+
+
+/* pagina principal*/
+
+.mifoto {
+    margin-left: 1100px;
+    margin-top: 100px;
+    
+}
+
+
+/*.inicio{
+        display: flex;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        color: #362052;
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        margin: 10px;   
+    } 
+        
+
+h1 {
+    display: flex;
+    color: #04A2CB;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    justify-content: center; 
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.segundo {
+    display: flex;
+    color: #07030c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 27.5px;
+    justify-content: center; 
+    padding: 10px;
+    padding-top: 0px;
+}
+
+
+.menu a {
+    display: flex;
+    display: inline;
+    width: 70%;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 75px;
+    color: #362052;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+
+.menu:hover ul li a {
+    color: #ceb7eb;
+}
+
+.menu:hover ul li a:hover {
+    color: #362052;
+    transform: scale(1.1);
+}
+
+.ilustracion {
+    display: flex;
+    height: 800px;
+    padding: 20px;
+    padding-top: 80px;
+    margin: 20px;
+    float: right;
+    position: relative;
+    margin: 20px;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+/* Trabajos 
+
+.conoce {
+    display: flex;
+    color: #04A2CB;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    justify-content: center; 
+    margin: 10px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+
+#imagenes {
+    justify-content: center;
+    display: block;
+}
+
+.tipografia {
+    margin-top: 70px;
+    margin-left: 450px;
+    margin-right: 300px;
+    padding: 20px;
+    
+}
+
+.identidadvisual {
+    padding-left: 250px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin: 80px;
+}
+
+.collage {
+    padding-left: 250px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin: 80px;
+
+} */
+
+
+/* Experiencia 
+
+.laboral {
+    display: flex;
+    color: #04A2CB;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    justify-content: center; 
+    margin: 10px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.experiencialaboral {
+    display: flex;
+    color: #957fb1;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    margin: 50px;
+    padding: 5px;
+
+
+}
+
+*/
+
+/* Sobre mi */
+
+/*
+
+.mifoto {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+/*.sobremi {
+    display: flex;
+    color: #04A2CB;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    justify-content: center; 
+    margin: 10px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+
+.habilidades {
+    display: flex;
+    color: #957fb1;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    margin: 50px;
+    padding: 5px;
+}
+
+*/
+
+
+
+/* Contacto 
+
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    background-color: #ceb7eb;
+    color: #362052;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.enviar {
+    background-color: #f6f1fd; 
+    color: #362052;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.comunicate {
+        display: flex;
+        color: #04A2CB;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        justify-content: center; 
+        margin: 10px;
+        padding: 10px;
+        padding-top: 50px;
+    }
+
+label {
+    display: block;
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 7px;
+    padding-bottom: 0px;
+}
+
+.ingreso {
+    background-color: #f6f1fd;
+    color: #362052;
+    border-color: none;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h3 {
+    display: flex;
+    color: #1a151d;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    justify-content: center; 
+    margin: 10px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.externos a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+*/
+
+
+/* Todos los footer*/
+
+footer {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #362052;
+    justify-content: center;
+    padding: 2px;
+    padding-top: 900px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
