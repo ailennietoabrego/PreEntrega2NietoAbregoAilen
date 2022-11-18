@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title> <link rel="icon" type="image/jpg" href="/imagenes/faviconcontacto.png"/>
-    <link rel="stylesheet" href="./CSS/style.css">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ailén Nieto - Porfolio</title> <link rel="icon" type="image/jpg" href="./imagenes/faviconcontacto.png"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
 
-    <header id="header">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a> <img class="headercontacto"  src="./imagenes/contacto.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Trabajos.html">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre mi.html">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Experiencia.html">Experiencia</a>
+              </li>
+            </form>
+          </div>
+      </nav>
 
-        <div class="headerlogo">
-            <img src="/imagenes/contacto.png">
+      <div>
+        <main class="trabajosgeneral">
+            <h2 class="conoce"> Comuniquemonos</h2>
+            <h3 class="conocedescripcion">
+              <p>Deje aquí su mensaje</p>
+            </h3>
+          </main>
+     </div>
+
+
+     <form>
+        <div class="mb-3">
+          <label for="Su nombre y apellido" class="form-label">Nombre y apellido</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
-
-        <div>
-            <h2 class="comunicate">Comuniquémonos</h2>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Asunto</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
-    
-        <nav class="menu-lista">
-            <ul>
-                <li> <a href="index.html">Inicio</a> </li>
-                <li> <a href="Trabajos.html">Trabajos</a> </li>
-                <li> <a href="Experiencia.html">Experiencia</a> </li>
-                <li> <a href="Sobre mi.html"> Sobre mi</a> </li>
-                <li> <a href="Contacto.html"> Contacto</a> </li>
-        </ul>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Escriba aquí su mensaje</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        <button type="submit" class="btn btn-primary">enviar</button>
+      </form>
 
-    </header>
-    
-
-    <section id="contacto">
-        <form class="datos">
-
-            <label for="nombreyapellido">Nombre y apellido</label>
-            <input type="text" placeholder="Su nombre y apellido" class="ingreso">
-            
-            <label for="Asunto">Asunto</label>
-            <input type="text" placeholder="De que se trata el mensaje" class="ingreso">
-            
-
-            <label for="Mensaje">Escriba aquí su mensaje</label>
-            <input type="text" placeholder="Mensaje" class="ingreso">
-            
-
-            <input type="submit" class="enviar">
-        </form>
-    </section>
 
 <div>
     <h3 class="masinfo">Para conocer mas proyectos y certificaciones</h3>
@@ -60,9 +72,11 @@
 </div>
 
 
-    <footer>
-        <p> Porfolio Ailén Nieto Abrego actualizado &copy; 2022</p>
-    </footer>
+<div>
+    <footer class="ultimo">
+      <p> Porfolio Ailén Nieto Abrego actualizado &copy; 2022</p>
+  </footer>
+  </div>
 </body>
 
 </html>

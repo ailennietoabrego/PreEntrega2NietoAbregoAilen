@@ -98,6 +98,78 @@ body {
     padding-top: 20px;
 }
 
+/* Experiencia */
+
+.headerexperiencia {
+    width: 300px;
+    height: 59px;
+}
+
+.col {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px
+}
+
+.tituloempresa {
+    margin: 15px;
+    color: #362052;
+}
+
+.card-text {
+    text-transform: lowercase;
+}
+
+/* Sobre mi */
+
+.headersobremi {
+    width: 250px;
+    height: 62px;
+}
+
+.col {
+    background-color: #ad9cc4;
+    border-radius: 5px;
+}
+
+
+/* Contacto */
+
+.headercontacto {
+    width: 272px;
+    height: 60px;
+}
+
+form {
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+label {
+    color: #362052;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.masinfo {
+    color: #362052;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.externos {
+    color: #362052;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
 
 /* Footer */
 
