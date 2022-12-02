@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2? family= Abril+Fatface &familia = Raleway: peso @ 100; 400; 600; 700 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #edecfd 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: block;
+}
+
+/* pagina principal*/
+.navbar-nav {
+  color: #362052;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+.navbar-nav .navbar-nav nav-item:hover {
+  color: #ad9cc4;
+  transform: scale(1.1);
+}
+
+.titulos {
+  margin: 20px;
+  padding: 20px;
+}
+.titulos .principal {
+  color: #362052;
+  font-family: "DM Serif Display", serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+.titulos .segundo {
+  color: #ad9cc4;
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.mifoto {
+  text-align: right;
+}
+
+@media screen and (max-width: 830px) {
+  .mifoto {
+    display: none;
+  }
+}
+/* Tabajos */
+.headertrabajo {
+  width: 252px;
+  height: 83px;
+}
+
+main .conoce {
+  color: #362052;
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+main .conocedescripcion {
+  color: #ad9cc4;
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.trabajosgeneral {
+  margin: 20px;
+  padding: 20px;
+}
+
+#carouselExampleIndicators {
+  margin: 25px;
+  padding: 5px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+/* Experiencia */
+.headerexperiencia {
+  width: 300px;
+  height: 59px;
+}
+
+/*extend*/
+
+
+.row .col {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 10px;
+}
+.row .tituloempresa {
+  margin: 15px;
+  color: #362052;
+}
+.row .card-text, .row .card-text-right, .row .card-text-left {
+  color: #fdfbfb;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-transform: lowercase;
+  text-transform: initial;
+}
+.row .card-text-left {
+  text-align: left;
+}
+.row .card-text-right {
+  text-align: right;
+}
+
+/* Sobre mi */
+.headersobremi {
+  width: 250px;
+  height: 62px;
+}
+
+.col {
+  background-color: #ad9cc4;
+  border-radius: 5px;
+}
+.col .descripcion {
+  color: #edecfd;
+}
+
+/* Contacto */
+.headercontacto {
+  width: 272px;
+  height: 60px;
+}
+
+form {
+  align-items: center;
+  margin: 50px;
+  padding: 20px;
+}
+form .label {
+  color: #362052;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.adicional .masinfo {
+  color: #362052;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+.adicional .externos {
+  color: #362052;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.masinfo {
+  color: #362052;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 65px;
+  margin-bottom: 5px;
+}
+
+/*.externos {
+    margin-top: 10px;
+    margin-left: 65px;
+
+}*/
+.externos {
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+.din {
+  padding: 10px;
+  border: #362052;
+  color: #ad9cc4;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(153, 2, 120);
+}
+
+.beh {
+  padding: 10px;
+  border: #362052;
+  color: #ad9cc4;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(2, 102, 44);
+}
+
+/* Footer */
+.ultimoinicio {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #362052;
+  justify-content: center;
+  padding: 2px;
+  padding-top: 800px;
+  padding-bottom: 20px;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */

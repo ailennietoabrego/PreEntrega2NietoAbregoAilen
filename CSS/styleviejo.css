@@ -1,4 +1,4 @@
-*{
+*/*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -98,7 +98,7 @@ body {
     padding-top: 20px;
 }
 
-/* Experiencia */
+/* Experiencia*/
 
 .headerexperiencia {
     width: 300px;
@@ -120,6 +120,7 @@ body {
 .card-text {
     text-transform: lowercase;
 }
+
 
 /* Sobre mi */
 
@@ -198,3 +199,5 @@ label {
     padding-bottom: 20px;
     margin: 10px;
 }
+
+/*
