@@ -137,6 +137,7 @@ main {
    
 
 
+
 /* Sobre mi */
 
 .headersobremi {
@@ -171,19 +172,17 @@ form {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     }   
-}
+    .adicional {
+        .masinfo {
+        color: #362052;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
 
-.adicional {
-    .masinfo {
-    color: #362052;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-left: 50px;
-    margin-bottom: 5px;
-}
-
-.externos {
+    .externos {
     color: #362052;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -191,6 +190,7 @@ form {
     margin-top: 10px;
     margin-left: 50px;
 }
+
 }
 
 .masinfo {
@@ -201,12 +201,6 @@ form {
     margin-left: 65px;
     margin-bottom: 5px;
 }
-
-/*.externos {
-    margin-top: 10px;
-    margin-left: 65px;
-    
-}*/
 
 .externos {
     margin-top: 10px;
@@ -231,9 +225,12 @@ form {
     text-transform: uppercase;
     color:rgb(2, 102, 44);
 }
+}
 
-
-
+.conocermas {
+    display: flex;
+    padding: 10px;
+}
 
 
 
